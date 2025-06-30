@@ -19,7 +19,7 @@ function SearchEngine({ query, setQuery, search }) {
         onChange={(e) => setQuery(e.target.value)}
         onKeyPress={handleKeyPress}
       />
-      <button onClick={search}><i className="fas fa-search" style={{ fontSize: "18px" }}></i></button>
+      <button className="searchBtn" onClick={search}><i className="fas fa-search" style={{ fontSize: "18px" }}></i></button>
     </div>
   );
 }
