@@ -1,5 +1,5 @@
 #node block
-From node:alpine3.16 as nodebuilder
+From node:lts as nodebuilder
 
 WORKDIR /app
 
