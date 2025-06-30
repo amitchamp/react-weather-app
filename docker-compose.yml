@@ -5,3 +5,4 @@ services:
       dockerfile: Dockerfile
     ports:
       - 3000:80
+    image: react-weather-app:latest
